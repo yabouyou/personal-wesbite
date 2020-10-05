@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Yaman Abouyouniss</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I'm <span class="home__title-color">Yaman</span>.<br></h1> 
+                    <h1 style="padding-bottom: 30px;">◖ Software Developer ◗</h1>
+                    <a href="#work" class="button">View Projects</a>
+                </div>
+               
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about" style="height: 90vh;">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="portrait.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Yaman</h2>
+                        <p class="about__text">I'm yaman, I like to code.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="https://github.com/yabouyou/YoutubeToSpotify/blob/main/demo.gif?raw=true" style="padding-bottom: 10px" alt="">
+                        
+                        <h2>Youtube to Spotify Extension</h2>
+                        <p class="about__text">A Google Chrome extension which adds a button under youtube videos that allows you to add music you find on youtube with the click of a button.</p>
+                        <a href="" class="button" onclick="location.href='https://github.com/yabouyou/YoutubeToSpotify'" type="button">See Project on Github</a>
+                    </div>
+                    <div class="work__img">
+                        <img src="https://raw.githubusercontent.com/yabouyou/WikipediaTreeVisualizer/master/sample.gif" style="padding-bottom: 10px" alt="">
+                        
+                        <h2>Wikipedia Relationship Visualizer</h2>
+                        <p class="about__text">
+                            Creates an interactive tree of related articles about people on Wikipedia using the BeautifulSoup webscraping library on Python.
+                        </p>
+                        <a href="" class="button" onclick="location.href='https://github.com/yabouyou/WikipediaTreeVisualizer'">See Project on Github</a>
+                    </div>
+                    <div class="work__img">
+                        <img src="https://github.com/yabouyou/learning-timer/blob/master/demo.gif?raw=true" alt="" style="padding-bottom: 10px">
+                        <h2>Learning Timer Extension</h2>
+                        <p class="about__text">
+                            Chrome Extension that peroidically blocks web-browsing until a short puzzle is solved.
+                        </p>
+                        <a href="" class="button" style="margin-top: 24px;" onclick="location.href='https://github.com/yabouyou/learning-timer'">See See Project on Github</a>
+                    </div>
+                    <div class="work__img">
+                        <img src="https://github.com/yabouyou/Tic-Tac-Toe-Server/raw/master/demo.gif" style="padding-bottom: 10px" alt="">
+                        
+                        <h2>Tic Tac Toe Server</h2>
+                        <p class="about__text">
+                            A server written in C which allows users to join or spectate a game of Tic Tac Toe using parrallel processing and sockets.
+                        </p>
+                        <a href="" class="button" onclick="location.href='https://github.com/yabouyou/Tic-Tac-Toe-Server'">See Project on Github</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="work__container bd-grid" style="padding-bottom: 50px;">
+                    <div class="contact__img">
+                        <i class="fa fa-github-square" style="font-size:128px; margin-bottom: 1rem;"></i>
+                        <h1>github.com/yabouyou</h1>
+                    </div>
+                    <div class="contact__img">
+                        <i class="fa fa-envelope-square" style="font-size:128px; margin-bottom: 1rem;"></i>
+                        <h1>yaman.abouyouniss@gmail.com</h1>
+                    </div>     
+                    <div class="contact__img">
+                        <i class="fa fa-linkedin-square" style="font-size:128px; margin-bottom: 1rem;"></i>
+                        <h1>linkedin.com/yabouyou</h1>
+                    </div>  
+                    <div class="contact__img">
+                        <i class="fa fa-phone-square" style="font-size:128px; margin-bottom: 1rem;"></i>
+                        <h1>+1 519 404 9682</h1>
+                    </div>                    
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Yaman Abouyouniss</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <link 
+        href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+        rel="stylesheet"  type='text/css'>
+    </body>
+</html>
