@@ -213,7 +213,7 @@ img{
   margin-bottom: var(--mb-2);
 }
 .about__img{
-  justify-self: start;
+  justify-self: center;
 }
 .about__img img{
   border-radius: .5rem;
