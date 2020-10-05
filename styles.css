@@ -213,10 +213,9 @@ img{
   margin-bottom: var(--mb-2);
 }
 .about__img{
-  justify-self: center;
+  justify-self: start;
 }
 .about__img img{
-  width: 200px;
   border-radius: .5rem;
 }
 
@@ -339,7 +338,7 @@ img{
     align-self: center;
   }
 
-  .about__container, .skills__container{
+  .about__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     text-align: initial;
